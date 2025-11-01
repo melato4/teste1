@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+
+  & img {
+    height: 4rem;
+  }
+
+  & nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+    &  a {
+      text-decoration: none;
+      color: #75633b;
+      font-size: 15px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    & .navigation-header a:hover {
+      color: #ffd700;
+    }
+
+
+    & a:hover {
+      color: #ffd700;
+    }
+  }
+}
